@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/fig">
+        <file alias="click">sound.wav</file>
+        <file alias="wc">white-crown.png</file>
+        <file alias="lb">light.jpg</file>
+        <file alias="db">dark.jpg</file>
+        <file alias="bc">black-crown.png</file>
+        <file alias="cb">cb.jpg</file>
+        <file alias="cbk">cbk.jpg</file>
+        <file alias="cw">cw.jpg</file>
+        <file alias="cwk">cwk.jpg</file>
+        <file alias="bgb">bgb.png</file>
+        <file alias="bgbk">bgbk.png</file>
+        <file alias="bgw">bgw.png</file>
+        <file alias="bgwk">bgwk.png</file>
+        <file alias="icon">icon_xl.png</file>
+        <file alias="cbg">cbg.jpg</file>
+        <file alias="cwg">cwg.jpg</file>
+    </qresource>
+</RCC>

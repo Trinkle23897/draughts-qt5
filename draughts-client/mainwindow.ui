@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Draughts-client</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>440</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuNew_Gam">
+    <property name="title">
+     <string>&amp;Game</string>
+    </property>
+    <addaction name="actionInput_host"/>
+   </widget>
+   <widget class="QMenu" name="menuOpt">
+    <property name="title">
+     <string>&amp;Opt</string>
+    </property>
+    <addaction name="actionMake_a_draw"/>
+    <addaction name="actionGive_up"/>
+   </widget>
+   <addaction name="menuNew_Gam"/>
+   <addaction name="menuOpt"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_game">
+   <property name="text">
+    <string>New game</string>
+   </property>
+  </action>
+  <action name="actionInput_host">
+   <property name="text">
+    <string>Input host</string>
+   </property>
+  </action>
+  <action name="actionMake_a_draw">
+   <property name="text">
+    <string>Make a draw</string>
+   </property>
+  </action>
+  <action name="actionGive_up">
+   <property name="text">
+    <string>Give up</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
